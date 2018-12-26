@@ -5,11 +5,11 @@ agree to abide by the Wagtail [code of conduct](https://github.com/wagtail/wagta
 
 If you do not have write access to the repo, fork, then clone the repo:
 
-    git clone git@github.com:your-username/bakerydemo.git
+    git clone git@github.com:your-username/tlcbr.git
 
-Set up your machine for [development](https://github.com/wagtail/bakerydemo/blob/master/readme.md).
+Set up your machine for [development](https://github.com/wagtail/tlcbr/blob/master/readme.md).
 
-Push to your fork and [submit a pull request](https://github.com/wagtail/bakerydemo/compare/).
+Push to your fork and [submit a pull request](https://github.com/wagtail/tlcbr/compare/).
 
 For contributors that have write access, if you create a PR that is not
 ready for review, please assign the **work in progress** label to the PR. Once ready

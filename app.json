@@ -1,11 +1,11 @@
 {
-  "name": "WagtailBakeryDemo",
-  "description": "WagtailBakeryDemo",
-  "repository": "https://github.com/wagtail/bakerydemo",
+  "name": "TLC-BR",
+  "description": "TLC-BR",
+  "repository": "https://github.com/fsilveir/tlc-brazil",
   "keywords": ["wagtail", "django"],
   "env": {
     "DJANGO_DEBUG": "off",
-    "DJANGO_SETTINGS_MODULE": "bakerydemo.settings.production",
+    "DJANGO_SETTINGS_MODULE": "tlcbr.settings.production",
     "DJANGO_SECURE_SSL_REDIRECT": "on"
   },
   "scripts": {

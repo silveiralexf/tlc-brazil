@@ -1,0 +1,14 @@
+---
+applications:
+- name: tlcbr
+  memory: 256M
+  instances: 1
+  host: tlcbr
+  path: .
+  buildpack: python_buildpack
+  random-route: false
+  env:
+    DJANGO_DEBUG: off
+    DJANGO_SETTINGS_MODULE: tlcbr.settings.production
+    DJANGO_SECURE_SSL_REDIRECT: on
+    DJANGO_SECRET_KEY: changeme

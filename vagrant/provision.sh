@@ -29,7 +29,7 @@ su - $DEV_USER -c "$PIP install -r $PROJECT_DIR/requirements/base.txt"
 chmod a+x $PROJECT_DIR/manage.py
 
 # copy local settings file
-cp $PROJECT_DIR/bakerydemo/settings/local.py.example $PROJECT_DIR/bakerydemo/settings/local.py
+cp $PROJECT_DIR/tlcbr/settings/local.py.example $PROJECT_DIR/tlcbr/settings/local.py
 # add .env file for django-dotenv environment variable definitions
 echo DJANGO_SETTINGS_MODULE=$PROJECT_NAME.settings.local > $PROJECT_DIR/.env
 
@@ -37,7 +37,7 @@ if [ -n "$USE_POSTGRESQL" ]
 then
     su - $DEV_USER -c "createdb $PROJECT_NAME"
     su - $DEV_USER -c "$PIP install \"psycopg2-binary>=2.7,<3\""
-    cat << EOF >> $PROJECT_DIR/bakerydemo/settings/local.py
+    cat << EOF >> $PROJECT_DIR/tlcbr/settings/local.py
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
