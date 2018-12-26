@@ -10,6 +10,7 @@
 .~*
 common/CACHE
 tlcbr/media/images/*
+tlcbr/media/original_images/*
 tlcbr/settings/local.py
 tlcbrdb
 tlcbr-db
