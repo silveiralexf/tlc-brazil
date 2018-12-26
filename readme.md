@@ -1,11 +1,28 @@
 TLC-Brazil Website
 ===========================================
 
-This repository is the base for the **IBM Technical Leadership Council Brazil (TLC-BR)** website. In order to facilitate the deployment,'ve used [Wagtail CMS](https://github.com/wagtail/wagtail) and IBM Cloud (CIO) to host the application.
+This repository is the base for the **IBM Technical Leadership Council Brazil (TLC-BR)** website. In order to facilitate the deployment, we've used [Wagtail CMS](https://github.com/wagtail/wagtail) and IBM Cloud (CIO) to host the application.
 
 Access to this website is currently restricted to IBM'ers only, through the following link:
 
 -  https://tlcbr.w3ibm.mybluemix.net
+
+<hr>
+
+### Preview 
+
+<table>
+<tbody>
+<tr>
+<td><img src="tlcbr/media/tlcbr_site_001.png" width="300" height="200"></td>
+<td><img src="tlcbr/media/tlcbr_site_002.png" width="300" height="200"></td>
+<td><img src="tlcbr/media/tlcbr_site_003.png" width="300" height="200"></td>
+<td><img src="tlcbr/media/tlcbr_site_004.png" width="300" height="200"></td>
+</tr>
+</tbody>
+</table>
+<hr>
+
 
 Setup on your local machine
 ------------------------------------
