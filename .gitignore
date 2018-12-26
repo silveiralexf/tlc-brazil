@@ -12,6 +12,7 @@ common/CACHE
 tlcbr/media/images/*
 tlcbr/settings/local.py
 tlcbrdb
+tlcbr-db
 __pycache__
 .vagrant/
 /.vagrant/
