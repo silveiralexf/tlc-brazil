@@ -34,7 +34,8 @@ class Country(models.Model):
         return self.title
 
     class Meta:
-        verbose_name_plural = "Countries of Origin"
+        #verbose_name_plural = "Countries of Origin"
+        verbose_name_plural = "Committees"
 
 
 @register_snippet
@@ -56,7 +57,8 @@ class BreadIngredient(models.Model):
         return self.name
 
     class Meta:
-        verbose_name_plural = 'Bread ingredients'
+        #verbose_name_plural = 'Bread ingredients'
+        verbose_name_plural = 'Requirements'
 
 
 @register_snippet
@@ -80,7 +82,7 @@ class BreadType(models.Model):
         return self.title
 
     class Meta:
-        verbose_name_plural = "Bread types"
+        verbose_name_plural = "Initiative owners"
 
 
 class BreadPage(Page):

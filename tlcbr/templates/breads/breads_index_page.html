@@ -29,11 +29,11 @@
                         </a>
                         <ul class="bread-meta">
                         {% if bread.origin %}
-                            <li><span>Origin</span> {{ bread.origin }}</li>
+                            <li><span>Type</span> {{ bread.origin }}</li>
                         {% endif %}
-                        {% if bread.bread_type %}
-                            <li><span>Type</span> {{ bread.bread_type }}</li>
-                        {% endif %}
+                        {% comment %} {% if bread.bread_type %}
+                            <li><span>Resp</span> {{ bread.bread_type }}</li>
+                        {% endif %} {% endcomment %}
                         </ul>
                     </div>
                 </div>
